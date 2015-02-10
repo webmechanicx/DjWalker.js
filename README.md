@@ -1,5 +1,5 @@
 # DjWalker.js
-Walking Through Dom Tree. I named it DjWalker. Small Function to Depth First Each Parent and Child Nodes
+Walking Through Dom Tree. I named it DjWalker. Small Function to Depth-first search (DFS) Each Parent and Child Nodes
 <pre>
 <code>
 var dj_walker = function djwalker(node, func) {
