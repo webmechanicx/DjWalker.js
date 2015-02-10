@@ -35,4 +35,16 @@ document.getElementById("render").innerHTML = nanm;
 
 <p>Include this link of js file in your html document for initial testing.
 <strong>MUST REMEMBER TO HAVE BODY TAG IN SIDE THE DOCUMENT WHERE YOU GOING TO ADD LINK.</strong></p> OR <p> You can change the first parameter in the function call <strong>dj_walker<strong>  e.g. document.body 
-</p>
+just use this as an example:</p>
+<pre>&lt;!doctype html&gt;
+&lt;html&gt;
+    &lt;body&gt;
+        &lt;div id="nav"&gt;
+            &lt;p&gt;&lt;a href="#fragment"&gt;Content&lt;/a&gt;&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div id="fragment"&gt;
+            &lt;p&gt;Footer&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/body&gt;
+&lt;/html&gt;</pre>
+
