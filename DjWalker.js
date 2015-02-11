@@ -11,6 +11,7 @@ var dj_walker = function djwalker(node, func) {
     }
 };
 
+// document.body pass as a selector
 dj_walker(document.body, function(node){
     if(node.nodeType == 1){
       tagcast = tagcast + "<br/>" + node.tagName.toLowerCase();
