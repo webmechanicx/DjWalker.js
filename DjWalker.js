@@ -1,6 +1,5 @@
 /* MIT License Non-Commercial and Commercial use, You can use this code anywhere including any number projects you may require. Just put my name as reference.
-Author: Farhadur Rahim
-Email: webmechanicx@gmail.com
+   Author: Farhadur Rahim Email: webmechanicx@gmail.com
 */
 
 var dj_walker = function djwalker(node, func) {
