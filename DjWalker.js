@@ -2,11 +2,11 @@
    Author: Farhadur Rahim Email: webmechanicx@gmail.com
 */
 
-var dj_walker = function djwalker(node, func) {
-    func(node);
+var dj_walker = function djwalker(node, examine) {
+    examine(node);
     node = node.firstChild;
     while (node) {
-        djwalker(node, func);
+        djwalker(node, examine);
         node = node.nextSibling;
     }
 };
